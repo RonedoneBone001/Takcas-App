@@ -18,5 +18,5 @@ android {
     }
 }
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.6.1'
+    // Никаких внешних библиотек, только чистый SDK
 }
