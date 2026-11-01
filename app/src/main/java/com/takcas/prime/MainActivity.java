@@ -12,7 +12,6 @@ public class MainActivity extends AppCompatActivity {
         WebView webView = new WebView(this);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient());
-        // Адрес твоего локального сервера
         webView.loadUrl("http://127.0.0.1:5000");
         setContentView(webView);
     }
