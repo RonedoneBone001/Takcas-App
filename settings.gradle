@@ -1,0 +1,2 @@
+rootProject.name = "Takcas Prime"
+include ':app'
