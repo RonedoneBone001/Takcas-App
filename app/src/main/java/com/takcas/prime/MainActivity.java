@@ -12,7 +12,7 @@ public class MainActivity extends Activity {
         WebView webView = new WebView(this);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("http://127.0.0.1:5000");
+        webView.loadUrl("https://takcas-service.onrender.com");
         setContentView(webView);
     }
 }
